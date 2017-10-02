@@ -50,7 +50,7 @@ def main():
         else:
             lose += 1
         tries += 1
-    win_percent = round(win/number_of_games, 2)
+    win_percent = round(win/number_of_games, 4) * 100
     print("You played", number_of_games, "games")
     print("You won", win, "and lost", lose)
     print("You won", win_percent, "percent of the time")
